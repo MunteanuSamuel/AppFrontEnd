@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>appFrontEnd</title>
+    <link rel="stylesheet" href="design.css" type="text/css">
+</head>
+<body>
+<header id="semnatura">by Munteanu Samuel</header>
+<hr>
+<h1 id="titlu">Exercitii JS</h1>
+<div id="alegere">
+<h4>Introdu numarul 'x'</h4>
+<input type="number" id="nrx" value="1">
+<br>
+<h4>Introdu numarul 'y'</h4>
+<input type="number" id="nry" value="1">
+<hr>
+<button id="adaugaNumere" onclick="afiseazaNumere()">Adauga Numere</button>
+</div>
+<br>
+<div id="content">
+<h4 id="numere">Numerele de la x la y sunt:</h4>
+<br>
+<h4 id="numereImpare" onclick="afiseazaImpare()">Numerele impare de la x la y sunt:</h4>
+<br>
+<h4 id="suma" onclick="afiseazaSuma()">Suma numerelor de la x la y sunt:</h4>
+<br>
+<h4 id="maxim" onclick="afiseazaMax()">Elemenutl maxim dintre numerele de la x la y este:</h4>
+<br>
+<h4>Introdu un numar si verifica de cate ori apare acesta in intervalul de numere de la x la y</h4>
+<input type="number" id="numar" value="1">
+<button id="alegeRef" onclick="afiseazaRef()">Alege Referinta</button>
+<br>
+<h4 id="referinta">Referinta aleasa este: </h4>
+<h4 id="numarRep" onclick="afiseazaRep()">Numarul ales apare de n ori.</h4>
+</div>
+<br>
+
+<script src="main.js"></script>
+</body>
+</html>

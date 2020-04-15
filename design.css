@@ -1,0 +1,50 @@
+
+body{
+    background-color: #EFF2F6;
+}
+
+#semnatura {
+    text-align: left;
+    color: #F9BD9E;
+    font-family: "Book Antiqua";
+}
+
+#titlu {
+    text-align: center;
+    color: #F9BD9E;
+    font-family: "Book Antiqua";
+}
+
+#nrx, #nry, #numar {
+    color: #5C83AC;
+    background-color: #E1EDF9;
+    box-shadow: cornflowerblue;
+    border-style: dotted;
+    border-color: #8AACD0;
+}
+
+#alegere {
+    text-align:center
+}
+
+h4 {
+    color: #5C83AC;
+    font-family: "Book Antiqua";
+    text-decoration: underline #FFDAC8;
+}
+
+hr{
+    color: #8AACD0;
+    border-style: dotted none none;
+    width: 50px;
+    border-width: 5px;
+}
+
+#content {
+    margin-inline-start: 50px;
+}
+
+button {
+    border-color: #5C83AC;
+    background-color: #FFF9F6;
+}
